@@ -1,9 +1,8 @@
-class FactorsOfNumber {
+class OddNumbers {
 	public static void main(String[] args) {
-		int no = 6;
+		int no = 20;
 		for(int i = 1; i<= no; i++) {
-
-			if(no%i == 0) {
+			if(i % 2 == 1) {
 				System.out.print(i + " ");
 			}
 		}
