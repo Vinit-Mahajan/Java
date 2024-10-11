@@ -1,0 +1,11 @@
+=>	This is lecture 47 On the topic of OOPs Concept
+
+=>	Constructor : This constructor is the special method used to initialize objects of the class.
+			-> It has no return type.
+			-> It is created at the time of the compilation by the compiler.
+			-> It has same name of the class name.
+			-> All the instance variable are intialize into the constructor.
+			-> When the constructor is called the invokespecial i.e. super() is called first time which means
+			   the Object class is called.
+			-> Java does not have Copy Constructor.
+			-> Interface does not have constructor.
